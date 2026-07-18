@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  :root { --verde:#152C24; --lima:#92BA35; --creme:#F7FBE0; }
+  body {
+    width:1080px; height:1350px; background:var(--verde);
+    font-family:'Montserrat',sans-serif; color:var(--creme);
+    display:flex; flex-direction:column; padding:84px 88px 72px;
+  }
+  .topo { display:flex; justify-content:space-between; align-items:baseline; }
+  .selo { font-weight:800; font-size:24px; letter-spacing:.22em; color:var(--lima); }
+  .contador { font-family:ui-monospace,'Courier New',monospace; font-size:22px; color:rgba(247,251,224,.55); }
+  .kicker { margin-top:96px; display:flex; align-items:center; gap:20px; }
+  .kicker .traco { width:44px; height:4px; background:var(--lima); }
+  .kicker span { font-family:ui-monospace,'Courier New',monospace; font-size:26px; letter-spacing:.34em; color:var(--lima); }
+  h1 { margin-top:34px; font-weight:800; font-size:74px; line-height:1.06; letter-spacing:-0.01em; }
+  .fato { margin-top:42px; font-weight:400; font-size:35px; line-height:1.45; color:rgba(247,251,224,.85); }
+  .operacao { margin-top:52px; border-left:6px solid var(--lima); padding-left:30px; }
+  .operacao .rotulo { font-family:ui-monospace,'Courier New',monospace; font-size:21px; letter-spacing:.3em; color:var(--lima); }
+  .operacao p { margin-top:14px; font-weight:600; font-size:35px; line-height:1.35; }
+  .loop { margin-top:auto; font-weight:300; font-style:italic; font-size:29px; color:rgba(146,186,53,.95); }
+  .rodape { margin-top:36px; padding-top:26px; border-top:1px solid rgba(247,251,224,.18);
+    display:flex; justify-content:space-between;
+    font-family:ui-monospace,'Courier New',monospace; font-size:22px; color:rgba(247,251,224,.6); }
+</style>
+</head>
+<body>
+  <div class="topo"><div class="selo">IA NO AGRO NEWS</div><div class="contador">{{CONTADOR}}</div></div>
+  <div class="kicker"><div class="traco"></div><span>{{KICKER}}</span></div>
+  <h1>{{MANCHETE}}</h1>
+  <p class="fato">{{FATO}}</p>
+  <div class="operacao"><div class="rotulo">NA OPERAÇÃO</div><p>{{OPERACAO}}</p></div>
+  <p class="loop">→ {{LOOP}}</p>
+  <div class="rodape"><span>FONTE · {{FONTE}}</span><span>{{DATA}}</span></div>
+</body>
+</html>

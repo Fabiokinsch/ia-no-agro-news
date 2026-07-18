@@ -1,0 +1,54 @@
+{
+  "data": "17/07/2026",
+  "capa": {
+    "manchete": "4 em cada 10 fazendas do Brasil já usam IA",
+    "loop": "E o resto do mundo não está parado — arrasta."
+  },
+  "noticias": [
+    {
+      "kicker": "BRASIL",
+      "manchete": "IA chega a 41,9% das fazendas brasileiras",
+      "fato": "Levantamento da FGV aponta 41,9% das fazendas com IA adotada. Em 2022, eram 16,9%.",
+      "operacao": "Quem não usa virou minoria. A régua de gestão subiu.",
+      "fonte": "FGV / O TEMPO",
+      "loop": "E do lado das empresas de tecnologia, o número é maior ainda."
+    },
+    {
+      "kicker": "BRASIL",
+      "manchete": "83% das agtechs do país já rodam com IA",
+      "fato": "O Radar Agtech Brasil mapeou 2.075 agtechs. 83% usam IA e 35% têm a IA no núcleo do produto.",
+      "operacao": "Mais oferta de ferramenta exige mais critério na hora de contratar.",
+      "fonte": "EMBRAPA / SP VENTURES",
+      "loop": "Enquanto isso, o concorrente lá fora ganhou reforço do governo."
+    },
+    {
+      "kicker": "MUNDO",
+      "manchete": "EUA financiam polo de IA agrícola no Meio-Oeste",
+      "fato": "A NSF destinou US$ 15 milhões a um polo de IA para agricultura liderado pela Iowa State, cobrindo Iowa e Nebraska.",
+      "operacao": "O concorrente americano trata IA no agro como infraestrutura pública.",
+      "fonte": "NSF",
+      "loop": "E na lavoura, a IA já mexe direto na conta de insumo."
+    },
+    {
+      "kicker": "MUNDO",
+      "manchete": "Câmera + IA corta até 80% do herbicida",
+      "fato": "Pulverização seletiva com visão computacional, como o See & Spray da John Deere, registra em estudos até 80% de redução no uso de herbicida.",
+      "operacao": "Isso é conta de insumo, não ficção. Vale acompanhar o custo por hectare.",
+      "fonte": "PWC AGTECH INNOVATION",
+      "loop": "Falta a novidade da semana no mundo da IA — e ela cabe na fazenda."
+    },
+    {
+      "kicker": "IA DA SEMANA",
+      "manchete": "Google amplia o Gemini para empresas criarem agentes",
+      "fato": "No Google Cloud Next '26, o Google apresentou o Gemini Enterprise ampliado — plataforma unificada de IA para empresas.",
+      "operacao": "A era dos agentes de IA chegou ao mundo corporativo. E cabe na fazenda também.",
+      "fonte": "GOOGLE CLOUD NEXT '26",
+      "loop": "Amanhã tem mais. O agro não espera."
+    }
+  ],
+  "cta": {
+    "pergunta": "Qual dessas muda algo na sua fazenda? Comenta."
+  },
+  "legenda": "IA no agro, edição de 17/07/2026.\n\nA FGV aponta 41,9% das fazendas brasileiras com IA adotada (eram 16,9% em 2022) e o Radar Agtech Brasil mapeou 2.075 agtechs — 83% já usando IA. Lá fora, os EUA colocaram US$ 15 milhões num polo de IA agrícola na Iowa State, e a pulverização seletiva com câmera + IA registra até 80% de redução de herbicida em estudos. Na semana da IA, o Google ampliou o Gemini Enterprise para empresas criarem seus próprios agentes.\n\nFontes: O Tempo (FGV), Radar Agtech Brasil (Embrapa/SP Ventures/Homo Ludens), NSF, PwC Agtech Innovation, Google Cloud Next '26.\n\nNewsletter gratuita com o resumo do dia: link no perfil.\n\n#IAnoAgro #agronegocio #inteligenciaartificial",
+  "ilustracao_prompt": "Ilustração editorial flat de um talhão de lavoura visto do alto com linhas de dados sutis sobre as fileiras de plantio, paleta verde-escuro #152C24, verde-lima #92BA35 e creme #F7FBE0, estilo limpo e sóbrio, sem texto na imagem, composição vertical."
+}

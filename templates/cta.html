@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  :root { --verde:#152C24; --lima:#92BA35; --creme:#F7FBE0; }
+  body { width:1080px; height:1350px; background:var(--verde);
+    font-family:'Montserrat',sans-serif; color:var(--creme);
+    display:flex; flex-direction:column; padding:84px 88px 72px; }
+  .topo { display:flex; justify-content:space-between; align-items:baseline; }
+  .selo { font-weight:800; font-size:24px; letter-spacing:.22em; color:var(--lima); }
+  .contador { font-family:ui-monospace,'Courier New',monospace; font-size:22px; color:rgba(247,251,224,.55); }
+  .centro { flex:1; display:flex; flex-direction:column; justify-content:center; }
+  .linha1 { font-weight:400; font-size:42px; color:rgba(247,251,224,.88); }
+  .destaque { margin-top:16px; font-weight:800; font-size:72px; line-height:1.06; color:var(--lima); }
+  .sub { margin-top:22px; font-weight:400; font-size:34px; color:rgba(247,251,224,.75); }
+  .divisor { width:120px; height:4px; background:rgba(247,251,224,.25); margin:56px 0; }
+  .linha2 { font-weight:400; font-size:38px; color:rgba(247,251,224,.88); }
+  .destaque2 { margin-top:12px; font-weight:800; font-size:60px; line-height:1.1; }
+  .link { margin-top:22px; font-family:ui-monospace,'Courier New',monospace; font-size:30px;
+    letter-spacing:.2em; color:var(--lima); border-bottom:5px solid var(--lima);
+    display:inline-block; align-self:flex-start; padding-bottom:8px; }
+  .pergunta { font-weight:300; font-style:italic; font-size:32px; line-height:1.4; color:rgba(247,251,224,.9); }
+  .tag { margin-top:28px; font-family:ui-monospace,'Courier New',monospace; font-size:22px; color:rgba(146,186,53,.9); }
+</style>
+</head>
+<body>
+  <div class="topo"><div class="selo">IA NO AGRO NEWS</div><div class="contador">08 / 08</div></div>
+  <div class="centro">
+    <p class="linha1">Isso mudou alguma decisão sua?</p>
+    <p class="destaque">Manda pro grupo da fazenda.</p>
+    <p class="sub">E salva, pra decidir com dado depois.</p>
+    <div class="divisor"></div>
+    <p class="linha2">Pra receber isso direto, todo dia:</p>
+    <p class="destaque2">Assina a newsletter gratuita</p>
+    <p class="link">LINK NO PERFIL</p>
+  </div>
+  <p class="pergunta">{{PERGUNTA}}</p>
+  <p class="tag">#IAnoAgro</p>
+</body>
+</html>

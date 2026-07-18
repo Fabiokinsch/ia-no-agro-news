@@ -1,0 +1,32 @@
+{
+  "data": "20/07/2026",
+  "tema": "Claude Science — Ato 1",
+  "cenas": [
+    {
+      "kicker": "HOJE NO AGRO",
+      "texto": "A Anthropic criou uma bancada de IA pra cientistas",
+      "narracao": "A Anthropic acabou de lançar o Claude Science: uma bancada de inteligência artificial feita pra quem faz ciência."
+    },
+    {
+      "kicker": "O QUE É",
+      "texto": "60+ bases científicas. Agentes que executam a pesquisa.",
+      "narracao": "São mais de sessenta bases de dados científicas conectadas, com agentes que tocam a pesquisa do começo ao fim."
+    },
+    {
+      "kicker": "E O AGRO?",
+      "texto": "Genética, biológicos e cultivares podem acelerar",
+      "narracao": "E onde o agro entra? Melhoramento genético, biológicos e novas cultivares podem sair do laboratório bem mais rápido."
+    },
+    {
+      "kicker": "O PORÉM",
+      "texto": "É beta. É laboratório. Não é porteira amanhã.",
+      "narracao": "O porém: é beta e é feito pra laboratório. Não chega na porteira amanhã. Mas muda o ritmo de quem pesquisa."
+    },
+    {
+      "kicker": "ATO 2",
+      "texto": "Quarta sai o dossiê completo. Segue o IA no Agro News.",
+      "narracao": "Na quarta sai o dossiê completo aqui no perfil. Segue o I A no Agro News."
+    }
+  ],
+  "legenda": "A Anthropic lançou o Claude Science — e o agro tem tudo a ver com isso.\n\nAto 2 (o dossiê completo, com fontes) sai quarta aqui no perfil.\n\n#IAnoAgro #agro #inteligenciaartificial"
+}

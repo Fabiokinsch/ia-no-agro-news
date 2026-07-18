@@ -1,0 +1,62 @@
+{
+  "data": "22/07/2026",
+  "tema": "Claude Science",
+  "capa": {
+    "manchete": "A IA que faz ciência chegou. E o agro?",
+    "loop": "A Anthropic lançou uma bancada de pesquisa. Dossiê completo."
+  },
+  "secoes": [
+    {
+      "etapa": "O FATO",
+      "titulo": "Anthropic lança o Claude Science",
+      "corpo": "Em 30/06, a Anthropic lançou uma bancada de IA pra pesquisa científica: mais de 60 bases de dados e ferramentas num ambiente só, em beta pros planos pagos.",
+      "fonte": "ANTHROPIC",
+      "loop": "Não é um modelo novo — e é aí que mora o ponto."
+    },
+    {
+      "etapa": "COMO FUNCIONA",
+      "titulo": "Agentes que executam a pesquisa",
+      "corpo": "Um agente coordenador delega o trabalho pra subagentes especialistas, e um agente revisor confere citações e cálculos. Roda nos modelos que já existem.",
+      "fonte": "ANTHROPIC / TECHCRUNCH",
+      "loop": "A aposta não é o modelo. É virar o balcão de trabalho."
+    },
+    {
+      "etapa": "POR QUE IMPORTA",
+      "titulo": "O mesmo caminho do Claude Code",
+      "corpo": "A estratégia é repetir na ciência o que o Claude Code fez na programação: virar a camada onde o trabalho acontece, não só a ferramenta que responde.",
+      "fonte": "TECHCRUNCH",
+      "loop": "E onde a fazenda entra nessa história?"
+    },
+    {
+      "etapa": "NA FAZENDA · 1",
+      "titulo": "Genética e melhoramento aceleram",
+      "corpo": "Pipelines de genômica que exigiam semanas de trabalho técnico viram instruções em linguagem simples. Menos atrito entre a pergunta do pesquisador e a resposta.",
+      "loop": "O segundo efeito mexe com o bolso do produtor."
+    },
+    {
+      "etapa": "NA FAZENDA · 2",
+      "titulo": "Biológicos e moléculas novas",
+      "corpo": "A descoberta de moléculas é o mercado mais quente da IA científica: projeção de cerca de US$ 4 bi em 2026 pra mais de US$ 25 bi em 2035.",
+      "fonte": "MEMEBURN",
+      "loop": "Antes do entusiasmo, o limite honesto."
+    },
+    {
+      "etapa": "O LIMITE HONESTO",
+      "titulo": "É laboratório, não porteira",
+      "corpo": "Beta, macOS/Linux, feito pra pesquisador. O impacto chega via Embrapa, universidades e agtechs — em cultivares, biológicos e diagnósticos. Não no celular amanhã.",
+      "fonte": "TECHCRUNCH / MEMEBURN",
+      "loop": "Então o que fazer com essa informação hoje?"
+    },
+    {
+      "etapa": "O QUE MUDA A DECISÃO",
+      "titulo": "O que observar em 12 meses",
+      "corpo": "Pesquisa saindo mais rápido do laboratório: novas cultivares, biológicos e diagnósticos. Quem contrata pesquisa ou compra genética já pode perguntar: vocês usam IA no pipeline?",
+      "loop": "Guarda o resumo — e manda pra quem decide contigo."
+    }
+  ],
+  "cta": {
+    "pergunta": "Na sua região, a pesquisa chega rápido na porteira? Comenta."
+  },
+  "legenda": "DOSSIÊ — Claude Science e o agro.\n\nA Anthropic lançou em 30/06 o Claude Science: bancada de IA que conecta mais de 60 bases científicas e executa pesquisa com agentes, rodando nos modelos atuais. A aposta é repetir na ciência o efeito do Claude Code na programação. Pro agro, o caminho passa por genômica, melhoramento e biológicos — via pesquisa, não via porteira amanhã.\n\nFontes: Anthropic (anthropic.com/news/claude-science-ai-workbench), TechCrunch, MIT Technology Review, Memeburn.\n\nAto 3 sai sexta: o que dá pra fazer hoje.\n\n#IAnoAgro #agro #ciencia",
+  "ilustracao_prompt": "Ilustração editorial flat de um laboratório de pesquisa agrícola com plantas em bancada e traços sutis de dados conectando microscópio e lavoura ao fundo, paleta verde-escuro #152C24, verde-lima #92BA35 e creme #F7FBE0, estilo limpo e sóbrio, sem texto na imagem, composição vertical."
+}

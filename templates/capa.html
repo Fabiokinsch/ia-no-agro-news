@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;800&display=swap" rel="stylesheet">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  :root { --verde:#152C24; --lima:#92BA35; --creme:#F7FBE0; }
+  body { width:1080px; height:1350px; background:var(--verde);
+    font-family:'Montserrat',sans-serif; color:var(--creme);
+    display:flex; flex-direction:column; }
+  .arte { position:relative; height:660px; background:
+    radial-gradient(720px 420px at 78% 22%, rgba(146,186,53,.32), transparent 70%), var(--verde); }
+  .arte img { width:100%; height:100%; object-fit:cover; display:block; }
+  .arte .veu { position:absolute; inset:0;
+    background:linear-gradient(180deg, rgba(21,44,36,.08) 40%, rgba(21,44,36,.92) 92%, var(--verde) 100%); }
+  .conteudo { flex:1; display:flex; flex-direction:column; padding:38px 88px 72px; }
+  .cabecalho { display:flex; justify-content:space-between; align-items:baseline; }
+  .selo { font-weight:800; font-size:34px; letter-spacing:.2em; color:var(--lima); }
+  .data { font-family:ui-monospace,'Courier New',monospace; font-size:24px; color:rgba(247,251,224,.65); }
+  h1 { margin-top:44px; font-weight:800; font-size:96px; line-height:1.04; letter-spacing:-0.015em; }
+  .loop { margin-top:auto; font-weight:300; font-style:italic; font-size:31px; color:var(--lima); }
+  .arrasta { position:absolute; right:88px; bottom:72px; font-family:ui-monospace,'Courier New',monospace;
+    font-size:22px; letter-spacing:.24em; color:rgba(247,251,224,.6); }
+</style>
+</head>
+<body>
+  <div class="arte">{{ILUSTRACAO}}<div class="veu"></div></div>
+  <div class="conteudo">
+    <div class="cabecalho"><div class="selo">IA NO AGRO NEWS</div><div class="data">{{DATA}}</div></div>
+    <h1>{{MANCHETE}}</h1>
+    <p class="loop">→ {{LOOP}}</p>
+  </div>
+  <div class="arrasta">ARRASTA →</div>
+</body>
+</html>

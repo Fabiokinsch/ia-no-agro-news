@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  :root { --verde:#152C24; --lima:#92BA35; --creme:#F7FBE0; }
+  body { width:1080px; height:1920px; background:
+    radial-gradient(900px 600px at 80% 12%, rgba(146,186,53,.22), transparent 70%), var(--verde);
+    font-family:'Montserrat',sans-serif; color:var(--creme); overflow:hidden; position:relative; }
+  .selo { position:absolute; top:96px; left:96px; font-weight:800; font-size:30px;
+    letter-spacing:.22em; color:var(--lima); }
+  .data { position:absolute; top:96px; right:96px; font-family:ui-monospace,'Courier New',monospace;
+    font-size:26px; color:rgba(247,251,224,.6); }
+  .cena { position:absolute; inset:0; display:flex; flex-direction:column; justify-content:center;
+    padding:0 96px; opacity:0; animation:mostra both linear; }
+  .kicker { display:flex; align-items:center; gap:20px; margin-bottom:36px; }
+  .kicker .traco { width:44px; height:5px; background:var(--lima); }
+  .kicker span { font-family:ui-monospace,'Courier New',monospace; font-size:28px;
+    letter-spacing:.32em; color:var(--lima); }
+  h2 { font-weight:800; font-size:80px; line-height:1.1; letter-spacing:-0.01em; }
+  .fontes { position:absolute; bottom:150px; left:96px; font-family:ui-monospace,'Courier New',monospace;
+    font-size:24px; color:rgba(247,251,224,.55); }
+  .barra { position:absolute; bottom:96px; left:96px; right:96px; height:6px;
+    background:rgba(247,251,224,.15); }
+  .barra i { display:block; height:100%; width:0; background:var(--lima); animation:progresso linear forwards; }
+  @keyframes mostra {
+    0% { opacity:0; transform:translateY(28px); }
+    6% { opacity:1; transform:none; }
+    94% { opacity:1; transform:none; }
+    100% { opacity:0; transform:translateY(-16px); }
+  }
+  @keyframes progresso { to { width:100%; } }
+  {{ESTILOS}}
+</style>
+</head>
+<body>
+  <div class="selo">IA NO AGRO NEWS</div>
+  <div class="data">{{DATA}}</div>
+  {{CENAS}}
+  <div class="fontes">FONTES NO DOSSIÊ DE QUARTA</div>
+  <div class="barra"><i style="animation-duration:{{TOTAL}}s"></i></div>
+</body>
+</html>

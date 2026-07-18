@@ -1,0 +1,11 @@
+# Segredos — NUNCA versionar
+.env
+*.env
+
+# Dependências e temporários
+node_modules/
+*.webm
+*.log
+
+# Trilha de áudio — licença geralmente não permite redistribuição em repo público
+assets/*.mp3

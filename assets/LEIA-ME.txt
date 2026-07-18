@@ -1,0 +1,8 @@
+Coloque aqui o arquivo trilha.mp3 — uma faixa livre de direitos (royalty-free)
+que vira o áudio fixo dos Reels. Sem ela, o reel sai sem som (funciona, mas performa pior).
+Trade-off assumido do modo 100% automático: a API não usa a biblioteca de músicas
+do Instagram, então áudios "em alta" ficam de fora — a trilha é própria e embutida.
+
+Obs: a trilha.mp3 fica FORA do repositório (gitignore) — a maioria das licenças
+royalty-free permite usar no conteúdo, mas não redistribuir o arquivo publicamente.
+Copie o arquivo manualmente em cada máquina.
