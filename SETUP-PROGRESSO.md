@@ -13,8 +13,8 @@
 - [x] 1.3 @ianoagronews vinculado à Página (18/07/2026, portfólio empresarial "ianoagronews")
 - [x] 1.4 App "IA no Agro News Publisher" criado (18/07/2026) — caso de uso "API do Instagram" com login do Instagram para empresas; permissões: instagram_business_basic + instagram_business_content_publish (+ mensagens/comentários obrigatórias); @ianoagronews como Testador do Instagram (convite aceito); token de 60 dias gerado e testado via graph.instagram.com v25.0 (.env: IG_USER_ID e META_ACCESS_TOKEN preenchidos); scripts publicar.js e publicar-reel.js ajustados para graph.instagram.com
 - [x] 1.5 OpenAI (18/07/2026): US$ 20 pré-pagos, auto-recarga OFF confirmada, chave criada e testada (.env OPENAI_API_KEY); script de ilustração atualizado pro gpt-image-2 (configurável via OPENAI_IMAGE_MODEL); custo estimado < US$ 12/mês
-- [ ] 1.6 GitHub: repositório público + BASE_URL no .env
-- [ ] 1.7 beehiiv: newsletter + formulário + link na bio
+- [x] 1.6 GitHub (18/07/2026): repositório público github.com/Fabiokinsch/ia-no-agro-news, push inicial feito (28 arquivos, sem .env — conferido), BASE_URL no .env apontando pras URLs raw de edicoes/, acesso público testado (HTTP 200)
+- [x] 1.7 beehiiv (18/07/2026): publicação "IA no Agro News" criada em conta beehiiv existente do Fábio (separada da "From Normal to Superhuman" — blindagem preservada); campos personalizados (Nome e sobrenome, WhatsApp, Área no agro, Principal cultura); formulário em PT com consentimento LGPD (campos extras ficam pro embed em site futuro); double opt-in LIGADO; reply-to fabio@ianoagro.com; página de inscrição https://ianoagronews.beehiiv.com/subscribe como link único na bio do @ianoagronews
 - [ ] 1.8 Trilha livre de direitos em assets/trilha.mp3
 
 ## FASE 2 — Teste ponta a ponta
