@@ -1,0 +1,54 @@
+{
+  "data": "18/07/2026",
+  "capa": {
+    "manchete": "EUA taxam o Brasil em 25% — mas poupam carne e café",
+    "loop": "E o clima já quer mexer no seu plantio — arrasta."
+  },
+  "noticias": [
+    {
+      "kicker": "BRASIL",
+      "manchete": "Tarifaço de 25% entra dia 22; carne e café escapam",
+      "fato": "Os EUA confirmaram isenção pra carne bovina, frango e cafés na sobretaxa de 25% que começa em 22/07. Açúcar orgânico, etanol e máquinas agrícolas pagam.",
+      "operacao": "Exporta pros EUA? Confira se o seu produto está na lista antes de fechar contrato.",
+      "fonte": "CNN BRASIL AGRO / NOTÍCIAS AGRÍCOLAS",
+      "loop": "Enquanto isso, o céu decide o ritmo da próxima safra."
+    },
+    {
+      "kicker": "BRASIL",
+      "manchete": "Sul pode ter até 300 mm de chuva até dia 22",
+      "fato": "Previsão aponta 250 a 300 mm no RS, SC e Centro-Sul do PR entre 18 e 22/07. Brasil Central segue seco no vazio sanitário, padrão esperado pro ciclo 26/27.",
+      "operacao": "No Sul: atenção a armazém, estrada e logística. No Centro: manter o vazio e planejar o plantio.",
+      "fonte": "CANAL RURAL",
+      "loop": "Lá fora, a oferta global de grãos cresceu — e isso mexe no preço."
+    },
+    {
+      "kicker": "MUNDO",
+      "manchete": "USDA eleva grãos no mundo; milho segura o preço",
+      "fato": "O USDA elevou a produção global de grãos forrageiros em 15,5 milhões de t em 25/26, puxada pelo milho. Em Chicago, milho fechou a 441,50¢ e soja a 1.195¢ (16/07).",
+      "operacao": "Oferta maior segura preço. Revisar a estratégia de venda — sem contar com rali.",
+      "fonte": "USDA",
+      "loop": "E a IA no campo? O recado da semana veio sem hype."
+    },
+    {
+      "kicker": "MUNDO",
+      "manchete": "\"IA boa no campo não parece revolução — parece rotina\"",
+      "fato": "Pro CEO da Phospholutions, a IA de maior impacto na fazenda \"não vai parecer revolucionária, vai parecer confiável\": recomendação de insumo que acerta, todo dia.",
+      "operacao": "Cobre confiabilidade da ferramenta, não promessa. Teste pequeno antes de escalar.",
+      "fonte": "AGFUNDER NEWS",
+      "loop": "E a novidade da semana em IA aponta pra onde isso vai."
+    },
+    {
+      "kicker": "IA DA SEMANA",
+      "manchete": "OpenAI lança plataforma pra empresa criar agente de IA",
+      "fato": "A OpenAI apresentou o Frontier, plataforma pra empresas criarem e gerenciarem agentes de IA que executam trabalho — na semana em que lançou a família GPT-5.6.",
+      "operacao": "Agente de IA é software que faz, não só responde. Gestão, compra e monitoramento entram na mira.",
+      "fonte": "OPENAI / TECHCRUNCH",
+      "loop": "Amanhã tem mais. O agro não espera."
+    }
+  ],
+  "cta": {
+    "pergunta": "Tarifa, chuva ou IA: o que pesa mais na sua semana? Comenta."
+  },
+  "legenda": "Tarifaço dos EUA: o que muda pro agro, edição de 18/07/2026.\n\nA sobretaxa de 25% sobre produtos brasileiros começa em 22/07, mas carne bovina, frango e cafés ficaram isentos — açúcar orgânico, etanol e máquinas pagam. No campo, o Sul espera até 300 mm de chuva até dia 22, enquanto o USDA elevou a oferta global de grãos e segurou os preços em Chicago. Na IA, a OpenAI lançou o Frontier, plataforma de agentes pra empresas.\n\nFontes: CNN Brasil Agro, Notícias Agrícolas, Canal Rural, USDA, AgFunder News, OpenAI/TechCrunch.\n\nNewsletter gratuita com o resumo do dia: link no perfil.\n\n#IAnoAgro #agronegocio #inteligenciaartificial",
+  "ilustracao_prompt": "Ilustração editorial flat de um porto de exportação visto do alto: navio cargueiro, contêineres e sacas de café e grãos no cais, com linhas de rota sutis cruzando o oceano, paleta verde-escuro #152C24, verde-lima #92BA35 e creme #F7FBE0, estilo limpo e sóbrio, sem texto na imagem, composição vertical."
+}

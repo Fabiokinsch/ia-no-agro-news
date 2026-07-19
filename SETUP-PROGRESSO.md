@@ -26,7 +26,12 @@
 - [x] teste real de publicação (18/07/2026): carrossel 2026-07-17 publicado no @ianoagronews via API, post ID 18435431803121414 (publicar.js ganhou espera de processamento do carrossel — erro 9007 corrigido)
 
 ## FASE 3 — Checklist de segurança (SEGURANCA.md)
-- [ ] Executar item por item
+- [x] 1. .env criado e fora do git (conferido no git status antes do 1º push e em todo commit)
+- [x] 2. OpenAI: US$ 20 pré-pagos, auto-recarga OFF (banner "Auto recharge is off" confirmado 18/07)
+- [x] 3. Meta: app em modo desenvolvimento, permissões mínimas (basic + content_publish + obrigatórias), token de 60 dias gerado e TESTADO em publicação real; expiração ~16/09/2026 anotada
+- [x] 4. Doc vigente validada: API v25.0 via graph.instagram.com, fluxo contêiner→status FINISHED→publish (carrossel e reels), preços OpenAI conferidos (custo < US$ 12/mês)
+- [x] 5. Teste ponta a ponta com edições-exemplo ANTES das rotinas (publicação real OK em 18/07)
+- Pendência menor: limite diário exato de publicações da API (confirmar na primeira semana; volume do canal 2-3/dia fica muito abaixo de qualquer limite)
 
 ## FASE 4 — Rotinas
 - [ ] 4 rotinas criadas (semana 1 em aquecimento: 1–2 posts/dia)
