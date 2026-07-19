@@ -34,7 +34,10 @@
 - Pendência menor: limite diário exato de publicações da API (confirmar na primeira semana; volume do canal 2-3/dia fica muito abaixo de qualquer limite)
 
 ## FASE 4 — Rotinas
-- [ ] 4 rotinas criadas (semana 1 em aquecimento: 1–2 posts/dia)
+- [x] Rotina 1 criada (18/07): edição diária ~6h ("ia-no-agro-edicao-diaria") — roda com o app Claude aberto e o computador ligado
+- [x] Rotina 4 criada (18/07): retro semanal domingo ~8h ("ia-no-agro-retro-semanal")
+- [ ] Semana 2 (a partir de ~27/07, se a semana 1 correr bem): criar rotina do reel da tarde e a série seg/qua/sex (3 atos)
+- Primeira edição 100% real produzida e publicada em 18/07 (post 18101575022172628): tarifaço EUA, chuva no Sul, USDA, IA confiável (AgFunder), OpenAI Frontier
 
 ## FASE 5 — Handoff
 - [ ] Resumo final pro Fábio
