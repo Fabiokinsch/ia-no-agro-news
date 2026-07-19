@@ -15,11 +15,11 @@
 - [x] 1.5 OpenAI (18/07/2026): US$ 20 pré-pagos, auto-recarga OFF confirmada, chave criada e testada (.env OPENAI_API_KEY); script de ilustração atualizado pro gpt-image-2 (configurável via OPENAI_IMAGE_MODEL); custo estimado < US$ 12/mês
 - [x] 1.6 GitHub (18/07/2026): repositório público github.com/Fabiokinsch/ia-no-agro-news, push inicial feito (28 arquivos, sem .env — conferido), BASE_URL no .env apontando pras URLs raw de edicoes/, acesso público testado (HTTP 200)
 - [x] 1.7 beehiiv (18/07/2026): publicação "IA no Agro News" criada em conta beehiiv existente do Fábio (separada da "From Normal to Superhuman" — blindagem preservada); campos personalizados (Nome e sobrenome, WhatsApp, Área no agro, Principal cultura); formulário em PT com consentimento LGPD (campos extras ficam pro embed em site futuro); double opt-in LIGADO; reply-to fabio@ianoagro.com; página de inscrição https://ianoagronews.beehiiv.com/subscribe como link único na bio do @ianoagronews
-- [ ] 1.8 Trilha livre de direitos em assets/trilha.mp3
+- [x] 1.8 Trilha (19/07): "the_mountain-country" (Pixabay, livre de direitos) em assets/trilha.mp3 (2min34; fica só local — .gitignore bloqueia mp3)
 
 ## FASE 2 — Teste ponta a ponta
 - [x] ilustracao → render (2026-07-17): gpt-image-2 OK, 8 slides OK (18/07; corrigido overlap do loop na capa.html)
-- [ ] reel 16s (2026-07-17) — aguardando assets/trilha.mp3 (item 1.8)
+- [x] reel 16s — trilha instalada (19/07); reel da edição 2026-07-18 regenerado com som
 - [x] dossiê (2026-07-22-dossie): ilustração + 10 slides OK (18/07)
 - [x] reel narrado (2026-07-20-teaser): TTS gpt-4o-mini-tts voz onyx + ffmpeg, 45s OK (18/07)
 - [x] commit+push das edições (URLs públicas prontas pra API da Meta)
