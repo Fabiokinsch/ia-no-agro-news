@@ -62,7 +62,17 @@ async function post(endpoint, params) {
     caption: legenda,
   });
 
-  // 3) Publicar
+  // 3) Aguardar o processamento do carrossel (a API retorna erro 9007 se publicar cedo demais)
+  for (let i = 0; i < 24; i++) {
+    const r = await fetch(`https://graph.instagram.com/${VERSAO}/${criacao}?${new URLSearchParams({ fields: 'status_code', access_token: META_ACCESS_TOKEN })}`);
+    const { status_code } = await r.json();
+    console.log('Status do carrossel:', status_code);
+    if (status_code === 'FINISHED') break;
+    if (status_code === 'ERROR') { console.error('Processamento do carrossel falhou.'); process.exit(1); }
+    await new Promise((res) => setTimeout(res, 5000));
+  }
+
+  // 4) Publicar
   const { id: postId } = await post('media_publish', { creation_id: criacao });
   const registro = `${new Date().toISOString()} — publicado, id ${postId}\n`;
   fs.writeFileSync(path.join(edicao, 'publicado.txt'), registro);

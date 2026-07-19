@@ -18,10 +18,12 @@
 - [ ] 1.8 Trilha livre de direitos em assets/trilha.mp3
 
 ## FASE 2 — Teste ponta a ponta
-- [ ] ilustracao → render → reel (2026-07-17)
-- [ ] dossiê (2026-07-22-dossie)
-- [ ] reel narrado (2026-07-20-teaser)
-- [ ] teste real de publicação
+- [x] ilustracao → render (2026-07-17): gpt-image-2 OK, 8 slides OK (18/07; corrigido overlap do loop na capa.html)
+- [ ] reel 16s (2026-07-17) — aguardando assets/trilha.mp3 (item 1.8)
+- [x] dossiê (2026-07-22-dossie): ilustração + 10 slides OK (18/07)
+- [x] reel narrado (2026-07-20-teaser): TTS gpt-4o-mini-tts voz onyx + ffmpeg, 45s OK (18/07)
+- [x] commit+push das edições (URLs públicas prontas pra API da Meta)
+- [x] teste real de publicação (18/07/2026): carrossel 2026-07-17 publicado no @ianoagronews via API, post ID 18435431803121414 (publicar.js ganhou espera de processamento do carrossel — erro 9007 corrigido)
 
 ## FASE 3 — Checklist de segurança (SEGURANCA.md)
 - [ ] Executar item por item
