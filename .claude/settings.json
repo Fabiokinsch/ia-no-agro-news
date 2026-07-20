@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git:*)",
+      "Bash(node:*)",
+      "Bash(npm:*)",
+      "Bash(npx:*)",
+      "Bash(ffmpeg:*)",
+      "Bash(ffprobe:*)",
+      "PowerShell(git:*)",
+      "PowerShell(node:*)",
+      "PowerShell(npm:*)",
+      "PowerShell(npx:*)",
+      "PowerShell(ffmpeg:*)",
+      "PowerShell(ffprobe:*)",
+      "PowerShell(Get-Content:*)",
+      "PowerShell(Get-ChildItem:*)",
+      "PowerShell(Test-Path:*)",
+      "WebSearch",
+      "WebFetch"
+    ]
+  }
+}
