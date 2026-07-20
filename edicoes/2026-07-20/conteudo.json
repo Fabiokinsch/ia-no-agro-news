@@ -1,0 +1,54 @@
+{
+  "data": "20/07/2026",
+  "capa": {
+    "manchete": "Soja volta aos US$ 12 — maior nível em 9 semanas",
+    "loop": "O motivo vem da Europa. E mexe com a sua safra — arrasta."
+  },
+  "noticias": [
+    {
+      "kicker": "BRASIL",
+      "manchete": "Couro brasileiro escapa do tarifaço dos EUA",
+      "fato": "Washington deixou o couro fora da sobretaxa de 25% sobre produtos brasileiros, que começa dia 22. Carnes e café já estavam isentos.",
+      "operacao": "A cadeia do boi respira: exportação de couro segue competitiva.",
+      "fonte": "CNN BRASIL AGRO",
+      "loop": "Mas nem tudo é alívio pro pecuarista — olha a China."
+    },
+    {
+      "kicker": "BRASIL",
+      "manchete": "Cota menor da China põe frigoríficos em alerta",
+      "fato": "Com a redução da cota chinesa de importação, plantas voltam a discutir férias coletivas e demissões.",
+      "operacao": "Pecuarista: acompanhe a escala de abate da sua região antes de fechar venda. Pressão na arroba é risco real.",
+      "fonte": "CNN BRASIL AGRO",
+      "loop": "E o que segura os preços lá fora? O clima respondeu."
+    },
+    {
+      "kicker": "MUNDO",
+      "manchete": "Calorão corta 23 milhões de toneladas de grãos na Europa",
+      "fato": "A onda de calor cortou 23 milhões de toneladas da estimativa de grãos da Europa. Milho da França: rumo ao menor volume em 20 anos.",
+      "operacao": "Menos grão lá fora tende a dar suporte de preço pra safra 26/27.",
+      "fonte": "WORLD-GRAIN",
+      "loop": "E Chicago reagiu — forte."
+    },
+    {
+      "kicker": "MUNDO",
+      "manchete": "Soja fecha a US$ 12 por bushel em Chicago",
+      "fato": "Maior nível em 9 semanas, puxado pela demanda internacional por farelo — que sustenta os preços também no Brasil, segundo o Cepea.",
+      "operacao": "Prêmio e dólar definem o seu preço final: vale ligar pra cooperativa hoje, não semana que vem.",
+      "fonte": "NOTÍCIAS AGRÍCOLAS / CEPEA",
+      "loop": "Falta a IA da semana — e ela mora no seu Excel."
+    },
+    {
+      "kicker": "IA DA SEMANA",
+      "manchete": "Excel com cérebro novo: GPT-5.6 chega ao Copilot",
+      "fato": "A OpenAI lançou o GPT-5.6, agora modelo padrão do Copilot — o assistente de IA dentro do Word e do Excel da Microsoft.",
+      "operacao": "Se você já paga o Microsoft 365, sua planilha de custos ganhou análise melhor sem instalar nada.",
+      "fonte": "TECHCRUNCH",
+      "loop": "Amanhã tem mais. O agro não espera."
+    }
+  ],
+  "cta": {
+    "pergunta": "Qual desses fatos muda sua semana? Manda pro grupo da fazenda."
+  },
+  "legenda": "Preço da soja hoje: de volta aos US$ 12 por bushel em Chicago, maior nível em 9 semanas.\n\nNo radar de 20/07: o couro brasileiro ficou fora do tarifaço dos EUA (que começa dia 22), a cota menor da China reacende alerta de demissões nos frigoríficos, a onda de calor cortou 23 milhões de toneladas da safra de grãos da Europa — e o GPT-5.6 virou o modelo padrão do Copilot, a IA dentro do Excel.\n\nFontes: CNN Brasil Agro (cnnbrasil.com.br/agro), Notícias Agrícolas/Cepea (noticiasagricolas.com.br), World-Grain (world-grain.com), TechCrunch (techcrunch.com).\n\nNewsletter gratuita com o resumo do dia: link no perfil.\n\n#IAnoAgro #agronegocio #soja",
+  "ilustracao_prompt": "Ilustração editorial flat, tema: grãos de soja em primeiro plano com um gráfico de linha subindo e um globo ao fundo com metade da Europa sob sol forte, paleta verde-escuro #152C24 / verde-lima #92BA35 / creme #F7FBE0, estilo limpo e sóbrio, sem texto na imagem, formato vertical."
+}
